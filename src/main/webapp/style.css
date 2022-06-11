@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body,table,tr,td,div,p,span,a,ul,li,form,input,iframe,img,textarea {margin:10px; padding:0px; border:0px; }
+div,span,a,table,td,img,iframe,form,textarea {font-size:10pt; font-family:MalgunGothic,Sans-serif; color:#454545; border:0px; margin:0px; padding:0px;}
+img {max-width:50px; vertical-align:middle;}
+button {align:center;}
+a {cursor:pointer; color:#454545;}
+a:link {text-decoration:none; color:#454545; outline-style:none;}
+a:visited {text-decoration:none; color:#454545; outline-style:none;}
+a:hover {text-decoration:none; color:#ff5005; outline-style:none;}
+
+#intro_body_style {margin:0px 20px 35px 20px; font-size:10pt; font-family:MalgunGothic,Sans-serif; color:#454545; background:url("/dat_frm/image/background_s1_page.jpg") no-repeat center center; background-size:cover; background-attachment:fixed;}
+#intro_body_style a:hover {color:#ff5005;}
+
+#mainTextBodyDiv img {display:inline-block; max-width:100%; height:auto;} 
+
+#container {margin:auto; width:788px;} 
+#page_container {padding:15px; background:#fff; border-radius:12px;} 
+
+#content_subject_wrap {margin-bottom:5px; font-size:12pt; font-weight:bold; color:#fff; background-color: #774;text-align:center; line-height:78px; border-radius:8px 8px 0px 0px;} /*본문 주제*/
+
+
+#content_wrap_line {padding:10px; border:5px solid #eee; border-radius:0px 0px 8px 8px;} 
+#content_wrap {min-height:480px; text-align:left;} 
+#page_content_ad {margin:15px auto;} 
+
+#main_page_icon {margin:12px 0px 0px 680px; position:absolute;} /*필기문제(/gunsystem_pilgi.htm), 질문답변(/gunsystem_qa.htm), 질문답변 게시판(/dat_frm/intro_board_skin.php 파일 qandaboard 조건처리), 도타비 문제은행(/cbt_list/index.php)*/
+#page_content_title {margin-bottom:15px; font-size:10.5pt; font-weight:bold; background:#efefef; text-align:center; line-height:38px; border-radius:10px;} /*About 건시스템(/gunsystem_about.htm), 사이트맵(/gunsystem_map.htm)*/
+
+#quiz_list_wrap2 {margin-left:10px;}
+
+#pc_container { margin:auto; width:1055px; background: #fff; border-radius:8px;}
+.count {padding:5px 0px 0px 0px; vertical-align:top; font-weight:bold; line-height:1.5;}
+.question01 {padding:5px 5px 3px 8px; font-weight:bold; text-align:justify; vertical-align:top; line-height:1.5; word-break: break-all;}
+.testing_wrap {padding:5px 5px 35px 5px; min-height:600px; border:solid 1px #ccc;}
+.question02 {padding:2px 5px 3px 22px; text-indent: -18px; text-align:justify; vertical-align: top; line-height: 1.5; word-break: break-all;}
